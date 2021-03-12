@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alejandro Díaz Roque - Fullstack Developer</title>
+  <!-- Link our CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="https://avatars1.githubusercontent.com/u/50834033?v=4" alt="Avatar" class="avatar">
+      <div class="header-content">
+        <h1>Hi 🖐<br />My name is Alejandro Díaz Roque</h1>
+        <div class="subtitle">
+          Computer Scientist <span class="dot">•</span>
+          Vuejs Developer <span class="dot">•</span>
+          Python developer <span class="dot">•</span>
+          Son, nephew & cousin <span class="dot">•</span>
+          La Habana, Cuba
+        </div>
+        <div class="contacts">
+          <a href="https://github.com/diazrock" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_github.svg" alt="GitHub" />
+            </span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://profile.codersrank.io/user/diazrock" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_cr.svg" alt="CodersRank" />
+            </span>
+            <span>CodersRank</span>
+          </a>
+          <a href="https://twitter.com/DiazRock2" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_twitter.svg" alt="Twitter" />
+            </span>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </header>
+    <section>
+      <h2>Introduction</h2>
+      <h3 class= "justify-center">
+        Software engineer focused on web development, both front-end and backend, with knwoledge of 
+        technologies as vue js, nuxt js, react js, python, django, and linux OS.
+      </h3>      
+      
+      <!-- Activity widget -->
+      <codersrank-activity username="diazrock" legend="true" labels tooltip step="5" ></codersrank-activity>
+      <!-- Skills chart widget -->
+      <codersrank-skills-chart
+        username="diazrock"
+        labels
+        tooltip
+        skills="JavaScript,Django,Vue,TypeScript,CSS,HTML,Python,Docker,Prolog,Go,Shell"
+        svg-width="1120"
+        svg-height="400"
+      ></codersrank-skills-chart>
+      <h3 class= "justify-center">
+        This is the codersrank scoring system of my skills. If you want to know about how it works,
+        you can read <a href= "https://github.com/codersrank-org/libraries"> here</a> .
+      </h3>
+      
+    </section>
+    <section>
+      <h2>Pinned Projects</h2>
+
+      <!-- Portfolio widget -->
+      <codersrank-portfolio
+        username="diazrock"
+        grid
+        company="false"
+      ></codersrank-portfolio>
+    </section>
+    <section>
+      <!-- <h2>Work Experience & Education</h2> -->
+
+      <!-- Work experience widget -->
+
+      
+      <!-- Education widget -->
+    </section>
+
+    <footer>
+      <!-- Generic footer copy -->
+    </footer>
+  </main>
+  <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+</body>
+</html>
