@@ -1,0 +1,22 @@
+{
+  "name": "personal-website-with-widgets",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiazRock/personal-website-with-widgets.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "DiazRock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiazRock/personal-website-with-widgets/issues"
+  },
+  "homepage": "https://github.com/DiazRock/personal-website-with-widgets#readme"
+}
